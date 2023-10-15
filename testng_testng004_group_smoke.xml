@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" name="oct15">
+        <classes>
+            <class name="com.thetestingacademy.oct15.testngexample.TestNG004"></class>
+            <class name="com.thetestingacademy.oct15.testngexample.TestNG003"></class>
+            <class name="com.thetestingacademy.oct15.testngexample.AllAnnotation"></class>
+        </classes>
+        <groups>
+            <run>
+                <include name="login"></include>
+                <include name="qa"></include>
+                <exclude name="smoke"></exclude>
+            </run>
+        </groups>
+    </test>
+</suite>
