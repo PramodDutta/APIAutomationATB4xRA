@@ -49,6 +49,9 @@ public class RA001 {
 
         // Payload - String, Hashmap, Class
 
+        // Post Request with BDD Style - .chaining().given().when.then();
+        // Non BDD Style
+
         RestAssured
                 .given()
                 .baseUri("https://restful-booker.herokuapp.com")
